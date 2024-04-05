@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Set the generic font */
+.txt{
+	border: 1px solid #9FCFFF;
+	height: 20px;
+	width: 350px;
+	padding-left: 3px;
+	color:#004080;
+}
+
+
+.txt:focus{
+	border: 1px solid #00C;
+	box-shadow: 2px 2px 2px #C4E9FB;
+	color:#D94600;
+}
+
+
+
+/* Generic table Design */
+.tablet{
+	border:1px solid #658BB1;
+	border-collapse: separate;
+	font-family: Calibri;
+	font-size:10px;
+	padding: 10px;
+	padding-bottom: 30px;
+	/*color: #006;*/
+	color: #000;
+	background-color:#FEFEFE;
+	
+}
+
+
+
+.tablet tr{
+	/*height: 25px;*/
+}
+
+.tablet tr:nth-child(odd){
+	/*height: 25px;*/
+	background-color: #FBFBFB;
+}
+
+.tablet tr:hover{
+
+	/*background-color: #CAE0F7;*/
+	background-color: #EAEEF2;
+	
+}
+
+
+.tablet td{
+	border-bottom: solid 1px #C5DBF1;
+	border-collapse:collapse;
+	font-family: Calibri;
+	font-size:13px;
+	color: #000;
+	padding: 4px;	
+}
+
+.tablet th{
+	background-color: #376D88;
+	color: #FFF;;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+	padding-left: 10px;
+	border-bottom: 1px solid #000;
+	background-image: url(../thumbs/orange.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+	height:24px;
+}
+
+
+
+.sg-submitbtn{
+	border: 1px solid #06F;
+	color: #FFF;
+	font-size:14px;
+	background-color: #06F;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	height: 30px;
+	
+}
+
+
+
+.sg-biggerbtn{
+	height:auto !important;
+	padding: 20px;
+}
+
+
+.sg-submitbtn-disabled{
+	border: 1px solid #999;
+	color: #CCC;
+	font-size:14px;
+	background-color: #999;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	height: 30px;
+	
+}
+
+
+
+.sg-warningbtn{
+	border: 1px solid darkred;
+	color: #000;
+	font-size:14px;
+	
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	height: 30px;
+	
+}
+
+
+.select{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:11px;
+	/*color:#D24400;*/
+	border: 1px solid #999;
+	color:#036;
+}
+
+.select:focus{
+	font-size:11px;
+	/*border: 1px solid #F93;*/
+	border: 1px solid #F93;
+	
+}
+
+
+
+.hyperlink{
+	text-decoration:none;
+	color: #008080;
+}
+
+.hyperlink:hover{
+	font-size:larger;
+}
+
+.hyperlink:visited{
+	color:#400000;
+}
+
+
+
+.infotab{
+	border: 1px solid #DADADA;
+	padding-bottom:20px;
+	color:#039;
+	/*border-collapse: collapse;*/
+	border-radius: 5px !important;
+	padding: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+
+
+.infotab td{
+	border-bottom: 1px solid #F2F2F2;
+	padding:10px;
+}
+
+
+.qlinks{
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+
+
+.qlinks td{
+	padding:5px;
+}
+
+.qlinks a{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#09F;
+	text-decoration:none;
+}
+
+.qlinks a:visited{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color: #09F;
+	text-decoration:none;
+}
+
+
+
+.compCourse{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#09F;
+}
+
+
+.regCourse{
+	font-family:calibri;
+	font-size:12px;
+	color: #93F;
+	text-decoration:none;
+}
+
+.regCourse:hover{
+	font-family:calibri;
+	font-size:12px;
+	color:#008080;
+	font-weight:bold;
+	/*text-decoration:none;*/
+	text-decoration:blink;
+}
+
+
+.delCourse{
+	font-family:calibri;
+	font-size:11px;
+	color: #F00;
+	text-decoration:none;
+}
+
+.delCourse:hover{
+	font-family:calibri;
+	font-size:12px;
+	color: #D30543;
+	font-weight:bold;
+	/*text-decoration:none;*/
+	text-decoration:blink;
+}
+
+
+.printpage{
+}
+.printpage tr:nth-child(even){
+	/*height: 25px;*/
+	background-color: #FBFBFB;
+}
+
+
+
+
+.errmsg{
+	font-family:Arial, Helvetica, sans-serif;
+	/*color:#603;*/
+	color:#09F;
+}
+
+.errmsg a{
+	font-family:"Times New Roman", Times, serif;
+	color:#CE0000;
+}
+
+
+
+
+.linkbtn:link, .linkbtn:visited {
+    background-color: #F03;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.linkbtn:hover, .linkbtn:active {
+    background-color: #900;
+}
+
+
+.font-bigger{
+	font-size: 14px;
+}
+
+
+.font-warning{
+	color:#C50D0E;
+}
+
+.styled_btn{
+	background-color: #003399;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: whitesmoke;
+	padding: 5px 7px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.styled_input{
+	padding: .25rem;
+	font-size: 13px;
+}
+
+body {
+	padding: 8px;
+	font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+	margin:0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active {
+    background-color: #ddd;
+    color: white;
+}
+
+
+body{
+	margin: 0;
+}

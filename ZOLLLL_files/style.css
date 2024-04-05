@@ -1,0 +1,115 @@
+#sitename {
+	position: relative;
+	bottom: 35px;
+	height: 15px;
+	width: 100%;
+}
+
+#top_nav {
+	font-family: verdana,arial,sans-serif;
+	font-size: 10pt;
+	margin: 10px;
+	background-color: #ececec;
+}
+
+#footer {
+	font-family: verdana, arial, sans-serif;
+	font-size: 10pt;
+	margin: 0 !important;
+	padding: 5px;
+	background-color: #6a6a6a;
+	color: white;
+	width: 100%;
+	text-align: right;
+}
+
+#sp {
+	float:right;
+	text-align:center;
+	position:relative;
+	top:20px;
+	margin-right:500px;
+	font-size:30px;
+	font-family:cursive;
+	color: #039;
+	margin-bottom:10px;
+	letter-spacing:10px;
+}
+
+#menu {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.li{
+	margin-left: 0px;
+	text-decoration: none;
+	list-style-type: none;
+	list-style-position: inside;
+	background-image: url(../images/grey4.jpg);
+	background-repeat: repeat-x repeat-y;
+	height: 30px;
+	border: solid 1px #CCC;
+	border-radius: 1px;
+	padding-left: 5px;
+	padding-top: 5px;
+	background-image: url(../images/1pbg.png) no-repeat left;
+	color: #006;
+	font-family: calibri;
+	margin-bottom: 1px;
+	display: block;
+}
+
+.li:hover{
+	background-image: url(../images/1pbg.png);
+	background-repeat: repeat-x;
+	border: solid 1px #06F;
+	border-radius: 3px;
+	background-color: #FAFAFA;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.li:hover a{
+	color: #FFF;
+}
+
+.li a{
+	text-decoration:none;
+	color: #006;
+}
+
+
+.nothing{
+	margin-left: 0px;
+	text-decoration: none;
+	list-style-type: none;
+	list-style-position: inside;
+	background-image: url(../images/grey4.jpg);
+	background-repeat: repeat-x repeat-y;
+	height: 30px;
+	border: solid 1px #CCC;
+	border-radius: 1px;
+	padding-left: 5px;
+	padding-top: 5px;
+	background-image: url(../images/1pbg.png) no-repeat left;
+	color: #006;
+	font-family: cursive;
+	font-size: 11px;
+	margin-bottom: 1px;
+	display: block;
+}
+
+.nothing:hover{
+	background-image: url(../images/grey4.jpg);
+	background-repeat: repeat-x repeat-y;
+}
+
+ .nothing a{
+	text-decoration: none;
+	color: #006;
+}
+
+.dispblock{
+	display: block;
+}

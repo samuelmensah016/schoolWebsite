@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>GRADING SYSTEM</h1>
+    <input type="text" id="subject" placeholder="enter subject" style="margin-bottom: 30px;">
+    <br>
+    <input type="text" id="score" placeholder="ENTER SCORE">
+    <h2 id="results">INPUT MARK TO GENERATE GRADE</h2>
+    <button onclick="gradeGenerator()">GENERATE GRADE </button>
+
+    <script>
+        function gradeGenerator(){
+            let studentGrade = 0;
+            let studentSubject =document.getElementById('subject').value 
+            let studentScore = document.getElementById('score').value;
+
+            console.log(studentSubject)
+            console.log(studentScore)
+
+            if(studentScore>= 80 && studentScore <=100){
+                document.getElementById('results').innerHTML=`YOU HAD AN A in ${studentSubject} which is equivalent to EXCELLENT`
+
+            }
+            else if(studentScore>=70 && studentScore<=79){
+                document.getElementById('results').innerHTML=`YOU HAD A B+ IN ${studentSubject} which is equivalent to VERY GOOD`
+
+            }
+            else if(studentScore>=65 && studentScore<=69){
+                document.getElementById('results').innerHTML=`YOU HAD A B IN ${studentSubject} which is equivalent to GOOD`
+                
+            }
+            else if(studentScore>=60 && studentScore<=64){
+                document.getElementById('results').innerHTML=`YOU HAD A C+ IN ${studentSubject} which is equivalent to CREDIT`
+
+            }
+            else if(studentScore>=55 && studentScore<=59){
+                document.getElementById('results').innerHTML=`YOU HAD A C IN ${studentSubject} which is equivalent to CREDIT`
+
+            }
+            else if(studentScore>=50 && studentScore<=54){
+                document.getElementById('results').innerHTML=`YOU HAD AN D+ IN ${studentSubject} which is equivalent to FAIR`
+
+            }
+            else if(studentScore>=45 && studentScore<=49){
+                document.getElementById('results').innerHTML=`YOU HAD AN D IN ${studentSubject} which is equivalent to PASS`
+
+            }
+            else if(studentScore>=40 && studentScore<=44){
+                document.getElementById('results').innerHTML=`YOU HAD A D IN ${studentSubject} which is equivalent to PASS`
+
+            }
+            else {
+                document.getElementById('results').innerHTML=`YOU HAD BELOW THE PASS MARK IN ${studentSubject} WHICH MEANS YOU FAILED`
+
+
+            }
+            
+        }
+    </script>
+</body>
+</html>

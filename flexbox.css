@@ -1,0 +1,110 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+    background-color: burlywood;
+    height: ;
+}
+ul{
+    display: flex;
+    gap: 1rem;
+}
+li{
+    list-style: none;
+}
+
+a{
+    font-weight: bold;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color:cadetblue;
+    
+}
+.headerText{
+    padding-top: 6rem ;
+}
+
+.backgroundColor1{
+    background-color:burlywood;
+}
+
+.headerContainer2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.headerText2{
+    padding-top: 4rem;
+}
+
+.img2{
+    height: 18rem;
+    width: 24rem;
+}
+
+.headerContainer3{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+.img3{
+    height: 18rem;
+    width: 24rem;
+}
+
+.headerContainer4{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.headerText4{
+    padding-top: 4rem;
+}
+
+.img4{
+    height: 18rem;
+    width: 24rem;
+}
+.abouttt{
+    text-align: center;
+    
+}
+
+.discorddd{
+    text-align: center;
+}
+.headerText3{
+    padding-top: 4rem;
+}
+
+.backgroundColor2{
+    background-color:cadetblue;
+}
+
+.courseee{
+    text-align: center;
+}
+
+.backgroundColor3{
+    background-color: burlywood;
+}
+
+button{
+    height: 2rem;
+    width: 6rem;
+    background-color: burlywood;
+}
+
